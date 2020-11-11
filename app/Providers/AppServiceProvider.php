@@ -2,18 +2,13 @@
 
 namespace App\Providers;
 
-use App\Charts\WeightChart;
-use ConsoleTVs\Charts\Registrar as Charts;
 use Illuminate\Support\ServiceProvider;
+use Jenssegers\Date\Date;
 
 class AppServiceProvider extends ServiceProvider
 {
-    public function boot(Charts $charts)
+    public function boot()
     {
-        $charts->register(
-            [
-                WeightChart::class
-            ]
-        );
+        Date::setlocale(config('app.locale'));
     }
 }

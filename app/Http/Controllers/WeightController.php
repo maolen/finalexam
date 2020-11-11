@@ -3,14 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\WeightFormRequest;
+use App\Models\User;
 use App\Models\Weight;
-use Illuminate\Support\Facades\DB;
 
 class WeightController extends Controller
 {
     public function index()
     {
-
         return view(
             'weights.index',
             [
@@ -41,8 +40,24 @@ class WeightController extends Controller
         return back()->with('success', 'Сохранено');
     }
 
-    function stat()
+
+    public function destroy(Weight $weight)
     {
-        return view('weight.stat');
+        $this->authorize('delete', $weight);
+
+        $weight->delete();
+        return back()->with('success', 'Удалено');
     }
+
+    function byUser(User $user)
+    {
+        return view(
+            'weights.show',
+            [
+                'title' => 'Данные веса пользователя ' . $user->name,
+                'weights' => $user->weights()->paginate(10)
+            ]
+        );
+    }
+
 }
