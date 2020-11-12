@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\DateRequest;
 use App\Http\Requests\WeightFormRequest;
-use App\Models\User;
 use App\Models\Weight;
 
 class WeightController extends Controller
@@ -40,6 +40,22 @@ class WeightController extends Controller
         return back()->with('success', 'Сохранено');
     }
 
+    function getDates(DateRequest $request)
+    {
+        $from = $request->get('date_from');
+        $to = $request->get('date_to');
+
+        $data = auth()->user()->weights()->whereBetween('created_at', [$from, $to])->get();
+
+        return view(
+            'weights.search',
+            [
+                'title' => 'Данные веса за период',
+                'weights' => $data
+            ]
+        );
+    }
+
 
     public function destroy(Weight $weight)
     {
@@ -49,8 +65,9 @@ class WeightController extends Controller
         return back()->with('success', 'Удалено');
     }
 
-    function byUser(User $user)
+    function byUser()
     {
+        $user = auth()->user();
         return view(
             'weights.show',
             [

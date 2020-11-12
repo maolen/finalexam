@@ -5,16 +5,13 @@
     <div class="mb-3 d-flex align-items-center justify-content-between">
         <h1 class="mb-0">{{ $title }}</h1>
 
-        <a class="btn btn-success" href="{{ route('weights.create') }}">
-            Добавить
-        </a>
-
     </div>
+    @include('components.datepicker')
 
     @if($weights->isEmpty())
 
         <div class="alert alert-secondary">
-            Нет данных
+            Не найдено
         </div>
 
     @else

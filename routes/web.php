@@ -33,3 +33,6 @@ Route::get('users/{user}/stat', [WeightController::class, 'byUser'])
     ->name('weights.by-user');
 Route::get('users/{user}/chart', ChartController::class)
     ->name('weights.chart');
+
+Route::get('users/{user}/search', [WeightController::class, 'getDates'])
+    ->name('weights.get-dates');

@@ -1,6 +1,7 @@
 @extends('layouts.front')
 
 @section('content')
+
     @guest
         <div class="text-center">
             <main role="main" class="inner cover">
@@ -21,7 +22,10 @@
     @endguest
 
     @auth
+
         @include('weights.form')
+
+
     @endauth
 
 @endsection
