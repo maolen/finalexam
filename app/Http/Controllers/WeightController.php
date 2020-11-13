@@ -45,7 +45,7 @@ class WeightController extends Controller
         $from = $request->get('date_from');
         $to = $request->get('date_to');
 
-        $data = auth()->user()->weights()->whereBetween('created_at', [$from, $to])->get();
+        $data = auth()->user()->weights()->whereBetween('created_at', [$from, $to])->paginate(10);
 
         return view(
             'weights.search',

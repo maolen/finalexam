@@ -22,17 +22,17 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <script src="{{ mix('js/app.js') }}" ></script>
+    <script src="{{ mix('js/app.js') }}" defer></script>
 
 </head>
 <body>
-    <div id="app">
-        @include('components.navbar')
+<div id="app">
+    @include('components.navbar')
 
-        <main class="container py-4">
-            @yield('stat')
-            @yield('content')
-        </main>
+    <main class="container py-4">
+        @yield('stat')
+        @yield('content')
+    </main>
 
     </div>
 

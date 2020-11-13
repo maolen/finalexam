@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c5ab4dc-9825-46c1-a765-c23377365b07" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WeightController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WeightController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/datepicker.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/datepicker.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605086024499</updated>
       <workItem from="1605086025513" duration="29887000" />
-      <workItem from="1605186459635" duration="10821000" />
+      <workItem from="1605186459635" duration="12373000" />
     </task>
     <task id="LOCAL-00001" summary="Сделала вывод статистики и графика, настроила navbar">
       <created>1605115307561</created>
@@ -201,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605194122327</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавила datepicker">
+      <created>1605273166004</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605273166004</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +219,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Сделала вывод статистики и графика, настроила navbar" />
     <MESSAGE value="Изменила источник графика, дополнила навбар" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменила источник графика, дополнила навбар" />
+    <MESSAGE value="Добавила datepicker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавила datepicker" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -226,10 +234,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1605109130618" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1605194117475">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1605273163958">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1605194117475" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1605273163958" />
     <state x="413" y="305" width="613" height="158" key="GitCloneDialog" timestamp="1605194596372">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -250,10 +258,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1605193038659" />
-    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1605194124809">
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1605273169780">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1605194124809" />
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1605273169780" />
     <state x="339" y="172" key="run.anything.popup" timestamp="1605103647223">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

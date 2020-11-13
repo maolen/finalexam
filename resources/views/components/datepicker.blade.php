@@ -1,5 +1,5 @@
 <div class="container">
-    <form action="{{ route('weights.get-dates', $user ?? '') }}" class="card card-body">
+    <form action="{{ route('weights.get-dates', auth()->user()) }}" class="card card-body">
         <div class="form-group">
 
             <label for="date_from">Начало </label>
