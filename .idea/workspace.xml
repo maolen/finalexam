@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c5ab4dc-9825-46c1-a765-c23377365b07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/DateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/bootstrap-datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/bootstrap-datepicker.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/bootstrap-datepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/bootstrap-datepicker.standalone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/bootstrap-datepicker.standalone.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/bootstrap-datepicker.standalone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/bootstrap-datepicker3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/bootstrap-datepicker3.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/bootstrap-datepicker3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/bootstrap-datepicker3.standalone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/bootstrap-datepicker3.standalone.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/bootstrap-datepicker3.standalone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap-datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap-datepicker.ru.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/datatable.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/datepicker.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/weights/search.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpexam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpexam.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WeightController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WeightController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/front.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/front.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/weights/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/weights/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/datepicker.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/datepicker.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605086024499</updated>
       <workItem from="1605086025513" duration="29887000" />
-      <workItem from="1605186459635" duration="7230000" />
+      <workItem from="1605186459635" duration="10821000" />
     </task>
     <task id="LOCAL-00001" summary="Сделала вывод статистики и графика, настроила navbar">
       <created>1605115307561</created>
@@ -219,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605115307561</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Изменила источник графика, дополнила навбар">
+      <created>1605194122327</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605194122327</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +211,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Сделала вывод статистики и графика, настроила navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделала вывод статистики и графика, настроила navbar" />
+    <MESSAGE value="Изменила источник графика, дополнила навбар" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменила источник графика, дополнила навбар" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -243,10 +226,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="139" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1605109130618" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1605115303938">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1605194117475">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1605115303938" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1605194117475" />
+    <state x="413" y="305" width="613" height="158" key="GitCloneDialog" timestamp="1605194596372">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="305" width="613" height="158" key="GitCloneDialog/0.0.1366.768@0.0.1366.768" timestamp="1605194596372" />
     <state x="561" y="282" key="Github.ShareDialog" timestamp="1605093931396">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -263,10 +250,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1605193038659" />
-    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1605115620299">
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1605194124809">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1605115620299" />
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1605194124809" />
     <state x="339" y="172" key="run.anything.popup" timestamp="1605103647223">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

@@ -50,7 +50,7 @@ class WeightController extends Controller
         return view(
             'weights.search',
             [
-                'title' => 'Данные веса за период',
+                'title' => $from,
                 'weights' => $data
             ]
         );
